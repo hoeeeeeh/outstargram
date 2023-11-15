@@ -10,13 +10,10 @@ metadata:
   name: outstagram
   namespace: hoeeeeeh
 spec:
-  clusterIP: None
   ports:
     - name: "8080"
       port: 8080
       targetPort: 80
   selector:
     io.kompose.service: outstagram
-  type: ClusterIP
-status:
-  loadBalancer: {}
+  type: loadBalancer
