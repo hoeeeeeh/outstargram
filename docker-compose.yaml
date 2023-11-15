@@ -1,0 +1,7 @@
+version: '3'
+services:
+  outstagram:
+    image: jakeheon/outstagram
+    container_name: outstagram_app
+    ports:
+      - "8080:80"  # 호스트의 8080번 포트와 컨테이너의 80번 포트를 연결합니다.
