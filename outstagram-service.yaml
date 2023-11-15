@@ -16,4 +16,4 @@ spec:
       targetPort: 80
   selector:
     io.kompose.service: outstagram
-  type: loadBalancer
+  type: LoadBalancer
